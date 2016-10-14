@@ -10,6 +10,7 @@ import admin.com.UnSpammer.DataBaseHelpers.ListsContract;
 /**
  * Created by Admin on 10/10/16.
  */
+// Thank you skyfishjy https://gist.github.com/skyfishjy/443b7448f59be978bc59
 
 public abstract class CursorRecyclerViewAdapter<VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
 
