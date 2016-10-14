@@ -18,7 +18,7 @@ import admin.com.UnSpammer.R;
 import admin.com.UnSpammer.DataBaseHelpers.ListsContract;
 import admin.com.UnSpammer.Utility;
 import admin.com.UnSpammer.Widget;
-
+// Thank you http://stackoverflow.com/questions/9904426/how-to-block-a-mobile-number-call-and-message-receiving-in-android-application-d
 public class CallTurningService extends Service {
     private String TAG = this.getClass().getSimpleName();
     private Context mContext;
