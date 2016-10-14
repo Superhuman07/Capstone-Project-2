@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <include layout="@layout/cp_select_checkbox" />
+
+    <com.onegravity.contactpicker.picture.ContactBadge
+        android:id="@+id/contact_badge"
+        android:visibility="invisible"
+        android:layout_marginTop="@dimen/contact_picture_vertical_margin"
+        android:layout_marginBottom="@dimen/contact_picture_vertical_margin"
+        android:layout_marginRight="@dimen/contact_picture_margin_right"
+        android:layout_marginEnd="@dimen/contact_picture_margin_right"
+        android:layout_height="@dimen/contact_picture_size"
+        android:layout_width="@dimen/contact_picture_size"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        style="?android:attr/quickContactBadgeStyleWindowLarge"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/name_start_margin"
+            android:layout_marginStart="@dimen/name_start_margin"
+            android:clickable="false"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/name_start_margin"
+            android:layout_marginStart="@dimen/name_start_margin"
+            android:clickable="false"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+</LinearLayout>

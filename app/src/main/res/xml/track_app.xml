@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name = "ga_trackingId">UA-68707496-2</string>
+    <string name = "ga_autoActivityTracking">true</string>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+</resources>

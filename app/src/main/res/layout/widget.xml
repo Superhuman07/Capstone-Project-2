@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/widget_size"
+    android:layout_height="@dimen/widget_size">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/appwidget_button"
+        android:contentDescription="@string/desc_widget_button"
+        android:background="@drawable/card_shape"/>
+
+</RelativeLayout>
