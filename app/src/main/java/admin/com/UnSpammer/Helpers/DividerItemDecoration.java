@@ -9,7 +9,7 @@ import android.view.View;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.graphics.Canvas;
-
+// Thank you lapastillaroja https://gist.github.com/lapastillaroja/858caf1a82791b6c1a36
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
 
     private Drawable mDivider;
